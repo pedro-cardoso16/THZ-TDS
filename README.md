@@ -22,7 +22,9 @@ Uma aplicação python voltada para detecção de por THz-TDS (TeraHertz Time-Do
 ### Newton-Raphson Method
 The Newton-Raphson method is used to find a function's root. It 
 ## Informations 
-$$ (n,k) \to T_c \to T_m \to \delta \to \text{new} (n,k) $$ 
+$$
+(n,k) \to T_c \to T_m \to \delta \to \text{new} (n,k) 
+$$ 
 Before proceeding we assume first the default units to be used as follows
 
 | Dimension | Unit              |

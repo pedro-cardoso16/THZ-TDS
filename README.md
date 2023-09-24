@@ -75,7 +75,7 @@ After the library installation the
 
 ```python
 from thztds import data_extraction 
-# Use the json file to collect the infromation and generates a txt output file
+# Use the json file to collect the information and generate a txt output file
 data_extraction.extract("settings.json","output.txt") 
 ```
 ### Output File
@@ -96,6 +96,7 @@ The output is a csv file with the input data and the calculated information, the
 | **`conductivity`**                  | $[\Omega^{-1}cm^{-1}]$ |
 
 ![](Figures/error_surface_zoomed.jpeg)
+Error surface example
 [[1]](#1)
 ## References
 <a id="1">[1]</a> 

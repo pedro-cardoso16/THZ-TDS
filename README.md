@@ -70,7 +70,14 @@ The json file has the information about the sample and the parameters that shoul
     }
 }
 ```
+### Data Extraction
+After the library installation the 
 
+```python
+from thztds import data_extraction 
+# Use the json file to collect the infromation and generates a txt output file
+data_extraction.extract("settings.json","output.txt") 
+```
 ### Output File
 The output is a csv file with the input data and the calculated information, the columns follow the names in the following order:
 
